@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Nasi Box",
+    "image": "/menu/nasi box.webp",
+    "wa": "6281234567890",
+    "category": "Catering"
+  },
+  {
+    "name": "Tumpeng",
+    "image": "/menu/tumpeng.webp",
+    "wa": "6281234567890",
+    "category": "Catering"
+  },
+  {
+    "name": "Paket Liwet",
+    "image": "/menu/Paket liwet.webp",
+    "wa": "6281234567890",
+    "category": "Catering"
+  },
+  {
+    "name": "Snack Box",
+    "image": "/menu/snack box.webp",
+    "wa": "6281234567890",
+    "category": "Snack"
+  },
+  {
+    "name": "Kue Basah",
+    "image": "/menu/makanan tradisional.webp",
+    "wa": "6281234567890",
+    "category": "Snack"
+  },
+  {
+    "name": "Kue Ultah",
+    "image": "/menu/kue ulang tahun.webp",
+    "wa": "6281234567890",
+    "category": "Kue"
+  },
+  {
+    "name": "Kue Pengantin",
+    "image": "/menu/kue pengantin.webp",
+    "wa": "6281234567890",
+    "category": "Kue"
+  },
+  {
+    "name": "Brownies",
+    "image": "/menu/brownies.webp",
+    "wa": "6281234567890",
+    "category": "Kue"
+  }
+]
