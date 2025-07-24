@@ -15,7 +15,7 @@ export default function App() {
       }}
     >
       <div className="bg-white rounded-3xl shadow-xl w-full max-w-md p-6 text-center">
-        <img src="/Logo_pak_mul_page-0001-removebg-preview.webp" alt="Logo UMKM" className="w-32 mx-auto  rounded-full" />
+        <img src="/Logo_pak_mul_page-0001-removebg-preview.webp" alt="Logo UMKM" width={128} height={128} className="w-32 h-32 mx-auto rounded-full object-cover" loading="lazy" />
         <h1 className="text-xl font-bold">Keni Cake & Catring</h1>
         <p className="text-sm text-gray-500 mb-4">2C26+M8R, Bakom, Kec. Darma, Kabupaten Kuningan, Jawa Barat 45562</p>
 
@@ -81,7 +81,16 @@ export default function App() {
               {menuData && menuData.length > 0 ? (
                 menuData.map((item, index) => (
                   <div key={index} className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 flex flex-col items-center text-center border border-gray-200">
-                    <img src={item.image} alt={item.name} className="w-28 h-28 object-cover rounded-lg mb-2 cursor-pointer" onClick={() => setSelectedImage(item.image)} onError={(e) => (e.target.style.display = "none")} />
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      width={112}
+                      height={112}
+                      className="w-28 h-28 object-cover rounded-lg mb-2 cursor-pointer"
+                      onClick={() => setSelectedImage(item.image)}
+                      onError={(e) => (e.target.style.display = "none")}
+                      loading="lazy"
+                    />
                     <p className="text-xs text-gray-400 mb-2">Klik gambar untuk melihat lebih jelas</p>
                     <h4 className="text-sm text-gray-500 mb-1">{item.category}</h4>
                     <h3 className="font-bold text-xl text-gray-900 text-center mb-2">{item.name}</h3>
