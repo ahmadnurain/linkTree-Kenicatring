@@ -43,7 +43,7 @@ export default function App() {
           Pesan via WhatsApp
         </a>
         <a
-          href="https://www.instagram.com/namapengguna_ig_anda" // Ganti dengan link IG Anda
+          href="https://www.instagram.com/keni.catring/" // Ganti dengan link IG Anda
           target="_blank"
           rel="noopener noreferrer"
           className="bg-pink-500 hover:bg-pink-600 text-white font-medium py-2 px-4 rounded-md mb-4 inline-flex items-center justify-center w-full transition duration-300"
