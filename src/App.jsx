@@ -32,7 +32,7 @@ export default function App() {
         </div>
 
         <a
-          href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20menu%20Anda%20dan%20ingin%20memesan.%20Boleh%20saya%20tahu%20detail%20lebih%20lanjutnya%3F"
+          href="https://wa.me/62895342155080?text=Halo%2C%20saya%20tertarik%20dengan%20menu%20Anda%20dan%20ingin%20memesan.%20Boleh%20saya%20tahu%20detail%20lebih%20lanjutnya%3F"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md inline-flex items-center justify-center w-full mb-4 transition duration-300"
